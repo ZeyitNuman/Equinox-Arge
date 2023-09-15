@@ -1,0 +1,109 @@
+.bar {
+    display: none;
+}
+
+.list i {
+    display: none;
+    gap: 20px;
+}
+
+.slogan {
+    height: 300px;
+    font-size: 1rem;
+}
+
+.slogan h1 {
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+.slogan img {
+    height: 150px;
+    width: 150px;
+}
+
+.slogan span.m-t {
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.container {
+    height: 400px;
+    margin-bottom: 0;
+}
+
+.referans {
+    max-width: 500px;
+    display: block;
+    margin-top: 0;
+}
+
+.referans img {
+    width: 150px;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.referans h2 {
+    border-bottom: none;
+    color: #3b444bb9;
+}
+
+.work {
+    display: block;
+    position: relative;
+}
+
+.work-box2 {
+    margin-top: 0;
+}
+
+.work-box2 img {
+    margin-top: 0;
+    position: relative;
+}
+
+.work-img1 {
+    height: 150px;
+    width: 300px;
+    margin: 0;
+}
+
+.work-img2 {
+    margin: 0;
+    height: 150px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.work-img3 {
+    margin: 0;
+}
+
+.service-h h1 {
+    font-size: 2rem;
+}
+
+.about {
+    display: block;
+    margin-top: 50px;
+}
+
+.about img {
+    width: 400px;
+    margin-left: 30px;
+}
+
+#footer-box {
+    width: 300px;
+    margin-right: 30px;
+    justify-content: start;
+}
+
+.dip-not {
+    margin-left: 30px;
+    margin: 0;
+}

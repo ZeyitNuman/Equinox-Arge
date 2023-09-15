@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-navbar {
+            background-color: black;
+        }
+        
+        .navbar-main {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            flex-direction: row;
+            position: relative;
+            font-size: 1.5rem;
+        }
+        
+        .navbar-main li:hover .sub-bar {
+            display: block;
+        }
+        
+        .navbar-main li:hover .sup-bar {
+            display: block;
+        }
+        
+        .navbar-main li {
+            margin-bottom: 150px;
+        }
+        
+        .navbar-main a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+        
+        .sub-bar {
+            position: absolute;
+            list-style: none;
+            display: none;
+        }
+        
+        .sup-bar {
+            position: absolute;
+            list-style: none;
+            display: none;
+        }
+        
+        .sup-bar li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .sub-bar li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .bar {
+            display: block;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-navbar">
+        <ul class="navbar-main">
+            <a href="">
+                <li>Kurumsal
+                    <div class="bar">
+                        <ul class="sub-bar">
+                            <a href="">
+                                <li>hakkımızda</li>
+                            </a>
+                            <a href="">
+                                <li>vizyon-misyon</li>
+                            </a>
+                        </ul>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>Eğitimler
+                    <div class="bar">
+                        <ul class="sup-bar">
+                            <a href="">
+                                <li>hakkımızda</li>
+                            </a>
+                            <a href="">
+                                <li>vizyon-misyon</li>
+                            </a>
+                        </ul>
+                    </div>
+                </li>
+            </a>
+            <a href="">
+                <li>Hizmetler</li>
+            </a>
+            <a href="">
+                <li>İletişim</li>
+            </a>
+        </ul>
+    </div>
+</body>
+
+</html>
